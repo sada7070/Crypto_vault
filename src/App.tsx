@@ -1,7 +1,8 @@
-function App() {
+import { MnemonicGen } from "./packages/MnemonicGen"
 
+function App() {
   return <div>
-    hi
+    <MnemonicGen />
   </div>
 }
 
